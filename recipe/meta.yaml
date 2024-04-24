@@ -1,5 +1,5 @@
 {% set name = "geoparse" %}
-{% set version = "2.0.3" %}
+{% set version = "2.0.4" %}
 
 
 package:
@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/GEOparse-{{ version }}.tar.gz
-  sha256: 2fa20af15839e285bd1bf35b797bfae06442e7e02464a5e28a25f5e97941bd0f
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: f2185310e5f7c6bd551c763476ad8a296cf7c355afa3136881e4bad5a5dad81a
 
 build:
   number: 0
